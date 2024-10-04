@@ -1,0 +1,94 @@
+html{
+    background-image: url("dramatic-storm-cloud-above-pyramids-giza-egypt-royalty-free-image-1662470381.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+h1 , p{
+    text-align: center;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+input , select{
+    display: block;
+    width: 100%;
+    padding: 0.1em;
+    font-size: 20px;
+    background-color: #fbfbfb;
+    border: solid 1px #CCC;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+input[type=checkbox] , input[type=radio] {
+    display: inline;
+    width: auto;
+}
+
+.input-label{
+    display: inline;
+    width: auto;
+}
+
+option{
+    color: black;
+    background: white;
+}
+
+select{
+    color: indigo;
+}
+
+
+iframe{
+    border-radius: 15px;
+    
+}
+
+input[type=submit]:hover ,
+
+ input[type=submit]:focus{
+
+outline: none;
+background: rgb(5,129,88);
+color: white;
+
+}
+
+
+input[type=reset]:hover ,
+
+ input[type=reset]:focus{
+
+outline: none;
+background: rgb(192,3,18);
+color: black;
+
+}
+
+input[type=reset],
+
+input[type=submit]{
+
+background-color: burlywood;
+color: black;
+margin-top: 1em;
+border-radius: 10px;
+
+}
